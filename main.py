@@ -50,7 +50,7 @@ async def read_items(
         ),
     ] = None,
 ):
-    results = {"items": [{"item_id": "Foo"}, {"item_id": "Bar"}]}
+    results = {"items": [{"item_id": "Foo"}, {"item_id": "Bars"}]}
     if q:
         results.update({"q": q})
     return results
